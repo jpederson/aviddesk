@@ -1,0 +1,241 @@
+/************* BASIC STYLES *************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 18pt;
+}
+a {
+	color: #444;
+	text-decoration: none;
+}
+p {
+	padding: 0 0 14px 0;
+	margin: 0;
+	font-size: 9pt;
+	line-height: 13pt;
+}
+h3 {
+	display: none;
+}
+h5 {
+	font-size: 6pt;
+	line-height: 18pt;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #888;
+}
+hr {
+	border-bottom: 1px dashed #aaa;
+}
+table {
+	width: 100%;
+	border-top: 0;
+}
+table th {
+	padding: 3px;
+	font-size: 6pt;
+	text-transform: uppercase;
+	color: #888;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-top: 1px solid #ccc;
+}
+table td {
+	border-top: 1px solid #ccc;
+	padding: 5px;
+}
+table tr.no-border td {
+	border-bottom: 0;
+}
+table td.qty {
+	text-align: center;
+	width: 8%;
+}
+table .number {
+	text-align: right;
+	width: 12%;
+}
+
+
+
+#content {
+	padding: 0;
+	width: auto;
+}
+#main-content {
+	padding: 0;
+}
+
+/************* MENU CLASSES *************/
+.menu {
+	display: none;
+}
+
+
+
+/************** GENERAL CLASSES *************/
+.quiet {
+	color: #777;
+	font-size: 9pt;
+}
+.clear {
+	clear: both;
+}
+
+
+
+/***************** BILLING STYLES *****************/
+#logo {
+	float: right;
+}
+#invoice-info {
+	position: absolute;
+	right: 0;
+	top: 45px;
+	width: 250px;
+	text-align: right;
+}
+#invoice-info .label {
+	display: block;
+	line-height: 14pt;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+#biller {
+	padding: 0;
+	width: 300px;
+	line-height: 13pt;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#billee {
+	padding: 0;
+	width: 300px;
+	line-height: 13pt;
+	position: absolute;
+	left: 40px;
+	top: 160px;
+}
+#invoice-items {
+	padding: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 300px;
+}
+#invoice-footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 875px;
+	font-size: 7pt;
+	line-height: 10pt;
+	text-align: center;
+	color: #bbb;
+	padding: 0;
+}
+
+span.label {
+	font-size: 6pt;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 0 15px 0 0;
+	padding: 0;
+	color: #888;
+}
+
+
+/************* REPORTS ************/
+.invoice-report-item {
+	border-bottom: 1px dashed #999;
+	color: #666;
+	padding: 7px 0;
+}
+.invoice-report-item a {
+	font-size: 16pt;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	border-bottom: 0;
+	margin: 0 15px 0 0;
+}
+.invoice-report-item .status {
+	float: right;
+	background: #4b7206;
+	color: #444;
+	padding: 2px 6px;
+	font-size: 9pt;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 4px;
+}
+table {
+	clear: both;
+	width: 100%;
+	margin: 0;
+	border-top: 1px solid #ccc;
+}
+table tr td {
+	padding: 3px;
+	color: #bbb;
+	vertical-align: top;
+} 
+table .qty {
+	text-align: center;
+	width: 10%;
+}
+table .number {
+	text-align: right;
+	width: 12%;
+}
+table .total {
+	clear: both;
+	margin-bottom: 2px;
+	padding: 3px;
+	float: right;
+	color: #ccc;
+}
+table .total span {
+	color: #444;
+	text-transform: uppercase;
+	font-size: 9pt;
+	letter-spacing: 1px; 
+	margin-right: 15px;
+}
+table th.invoice-total {
+	font-size: 10pt !important;
+	line-height: 14pt !important;
+	letter-spacing: 0 !important;
+	padding: 3px 5px !important;
+}
+table tr.no-border td, table tr.no-border th {
+	border: 0 !important;
+}
+.overall-total {
+	float: right;
+	text-align: right;
+	width: 75%;
+	padding: 30px 20px 40px 0;
+}
+.overall-total span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 9pt;
+	color: #666;
+}
+
+
+
+.wide-field, form, .no-print, header, #footer, #invoice-buttons {
+	display: none;
+}
+.print-only {
+	display: block;
+}

@@ -1,0 +1,113 @@
+@import url(style.css);
+
+
+/*************** ID SELECTORS ***************/
+body {
+	margin: 0;
+	padding: 10px;
+	background: #222;
+	color: #eee;
+}
+div, p, li, blockquote, td {
+	font-size: 13px;
+	line-height: 18px;
+}
+#container {
+	width: auto;
+}
+#main-content {
+	padding: 15px 15px 35px 15px;
+}
+#content {
+	width: 100%;
+}
+#sidebar {
+	position: static;
+	float: none;
+	width: auto;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+#sidebar select {
+	width: 100%;
+	max-width: 500px;
+}
+header nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+header nav a {
+	border-radius: 0;
+	float: left;
+	margin: 0;
+	width: auto;
+	padding: 8px;
+	text-align: center;
+	font-size: 11pt;
+}
+header h1 {
+	display: none;
+}
+table td span {
+	display: none;
+}
+
+input.wide-field {
+	width: 95%;
+}
+textarea.wide-field {
+	width: 95%;
+	height: 130px;
+}
+
+#invoice-items td {
+	padding: 4px;
+}
+
+.invoice-report-item table td {
+	font-size: 9pt;
+	line-height: 14pt;
+	padding: 5px;
+	vertical-align: top;
+}
+.invoice-report-item table td.number {
+	padding: 5px;
+	vertical-align: top;
+	width: 5%;
+}
+.invoice-report-item table td.qty {
+	padding: 5px;
+	vertical-align: top;
+	width: 5%;
+}
+.two-column {
+	width: auto;
+	padding: 0 0 20px 0;
+	float: none;
+}
+.graph, #bar-chart {
+	max-width: 100%;
+}
+
+#bar-chart, #line-graph {
+	height: 250px;
+}
+#pie-chart, #status-pie-chart {
+	height: 300px;
+}
+
+
+
+.no-mobile {
+	display: none;
+}
+.print-only {
+	display: none;
+}
+.phone-only {
+	display: inline;
+}
+div.phone-only {
+	display: block;
+}

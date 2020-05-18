@@ -1,0 +1,32 @@
+@import url(style.css);
+
+div, p, li, blockquote, td {
+	font-size: 17px;
+	line-height: 24px;
+}
+table td span {
+	display: none;
+}
+
+#container {
+	width: auto;
+	margin: 15px;
+}
+
+#content {
+	width: 74%;
+}
+
+#sidebar {
+	background-color: #ccc;
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	right: 4%;
+	width: 18%;
+}
+
+#sidebar select {
+	width: 100%;
+	max-width: 500px;
+}
